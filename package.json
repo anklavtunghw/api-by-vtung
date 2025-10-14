@@ -1,14 +1,13 @@
 {
-  "name": "api-by-vtung",
+  "name": "sunwin-wss-api",
   "version": "1.0.0",
-  "description": "API Tài Xỉu hit.club by vtung",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node main.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "ws": "^8.17.0"
+    "fastify": "^4.28.1",
+    "ws": "^8.18.0"
   }
 }
